@@ -13,8 +13,9 @@ public class HttpResponse {
 
 	@Deprecated
 	public HttpResponse(DataInputStream fromServer, int cnt) {
-		System.out.println("<< HttpResponse " + cnt + " >>");
-
+		//System.out.println("<< HttpResponse " + cnt + " >>");
+		System.out.println("<< HttpResponse >>");
+		
 		int length = -1;
 		boolean gotStatusLine = false;
 

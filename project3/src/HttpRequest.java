@@ -12,7 +12,8 @@ public class HttpRequest {
 	String headers = "";
 
 	public HttpRequest(BufferedReader from, int cnt) {
-		System.out.println("<< HttpRequest " + cnt + " >>");
+		//System.out.println("<< HttpRequest " + cnt + " >>");
+		//System.out.println("<< HttpRequest >>");
 		String firstLine = "";
 
 		try {
